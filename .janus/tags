@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+<Leader>t	plugin/tasklist.vim	/^    map <unique> <Leader>t <Plug>TaskList$/;"	m
+<Plug>TaskList	plugin/tasklist.vim	/^nnoremap <unique> <script> <Plug>TaskList :TaskList<CR>$/;"	m
+CheckForUpdate	plugin/tasklist.vim	/^function! s:CheckForUpdate()$/;"	f
+Exit	plugin/tasklist.vim	/^function! s:Exit(key)$/;"	f
+LineNumber	plugin/tasklist.vim	/^function! s:LineNumber()$/;"	f
+OpenWindow	plugin/tasklist.vim	/^function! s:OpenWindow(buffnr, lineno)$/;"	f
+SearchFile	plugin/tasklist.vim	/^function! s:SearchFile(hits, word)$/;"	f
+TaskList	plugin/tasklist.vim	/^command! TaskList call s:TaskList()$/;"	c
+TaskList	plugin/tasklist.vim	/^function! s:TaskList()$/;"	f
+UpdateDoc	plugin/tasklist.vim	/^function! s:UpdateDoc()$/;"	f
+g:loaded_tasklist	plugin/tasklist.vim	/^let g:loaded_tasklist = 1$/;"	v
+g:tlRememberPosition	plugin/tasklist.vim	/^    let g:tlRememberPosition = 0$/;"	v
+g:tlTokenList	plugin/tasklist.vim	/^    let g:tlTokenList = ["FIXME", "TODO", "XXX"]$/;"	v
+g:tlWindowPosition	plugin/tasklist.vim	/^    let g:tlWindowPosition = 0$/;"	v

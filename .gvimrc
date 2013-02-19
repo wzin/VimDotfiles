@@ -1,1 +1,1 @@
-/home/wojtek/.gvimrc
+/home/wojtek/.vim/janus/vim/gvimrc
